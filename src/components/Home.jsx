@@ -2,6 +2,7 @@ import { useMemo, useContext } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from './UserProvider'; // Context 사용하도록 수정
 
+
 const Home = () => {
     // Context에서 전역 상태 가져오기
     const { currUser, setCurrUser, posts, users } = useContext(UserContext);

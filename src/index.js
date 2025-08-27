@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { UserProvider } from './components/UserProvider'; // UserProvider 사용하도록 수정
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import './index.css';
+=======
+import './index.css'
+>>>>>>> aram
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
